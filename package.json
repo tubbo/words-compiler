@@ -1,0 +1,37 @@
+{
+  "name": "compiler",
+  "version": "1.0.0",
+  "description": "a compiler for the words ember addon",
+  "main": "lib/compiler.js",
+  "scripts": {
+    "test": "phantomjs test/test-helper.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tubbo/words-compiler.git"
+  },
+  "keywords": [
+    "words",
+    "blogging",
+    "platform",
+    "ember"
+  ],
+  "author": "Tom Scott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/words/compiler/issues"
+  },
+  "homepage": "https://github.com/words/compiler",
+  "dependencies": {
+    "app-root-path": "^1.0.0",
+    "cheerio": "^0.18.0",
+    "js-yaml": "^3.2.5",
+    "marked": "^0.3.3",
+    "merge": "^1.2.0",
+    "reject": "0.0.1"
+  },
+  "devDependencies": {
+    "qunit": "^0.7.5",
+    "qunit-phantomjs-runner": "^2.1.0"
+  }
+}
