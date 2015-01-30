@@ -1,5 +1,5 @@
 {
-  "name": "compiler",
+  "name": "words-compiler",
   "version": "1.0.0",
   "description": "a compiler for the words ember addon",
   "main": "lib/compiler.js",
